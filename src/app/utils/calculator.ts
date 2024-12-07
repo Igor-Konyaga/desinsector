@@ -11,7 +11,7 @@ export const costСalculation = (
 ): void => {
 
   const areaRoom = Number(aRoom);
-  const numberRoom = Number(nRoom);
+  // const numberRoom = Number(nRoom);
 
 
   const apartmentCF =
