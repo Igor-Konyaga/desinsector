@@ -1,0 +1,17 @@
+
+.typeRoom {
+  .typeRoomTitle {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+
+    @media screen and (max-width: 768px){
+      font-size: 20px;
+    }
+  }
+  .groupInputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+  }
+}

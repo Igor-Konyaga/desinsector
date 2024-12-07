@@ -1,0 +1,90 @@
+@import '../../../styles/colors';
+
+
+.calculatorForm {
+  @media screen and (min-width: 768px){
+    padding: 60px 100px;
+    background-color: rgba(250, 245, 240, 0.8);
+  }
+
+  .calculatorLabel {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    @media screen and (max-width: 768px){
+      font-size: 20px;
+    }
+  }
+
+  .wrapperParameter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 38px;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+  }
+
+  .submitBtn {
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+
+    background-color: $accent-color;
+    transition: all 0.3s;
+
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 24px;
+
+    &:hover,
+    &:focus {
+      background-color: $hover-color;
+      transition: all 0.3s;
+    }
+
+    &:disabled {
+      background-color: #B0AFAD;
+      color: #F2EDE9;
+    }
+  }
+  .wrapperResultCalc {
+    display: flex;
+    justify-content: flex-end;
+
+    @media screen and (max-width: 768px){
+      justify-content: space-between;
+    }
+
+    .resultPriceLabel {
+      margin-right: calc(50% - 138px - 85px);
+      font-weight: 700;
+      font-size: 42px;
+
+      @media screen and (max-width: 768px){
+        font-size: 36px;
+      }
+    }
+
+    .resetBtnCalc {
+      padding: 10px 20px;
+      max-width: 170px;
+      background-color: $accent-color;
+      transition: all 0.3s;
+
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 20px;
+
+      &:hover,
+      &:focus {
+        background-color: $hover-color;
+        transition: all 0.3s;
+      }
+
+    }
+
+  }
+}
