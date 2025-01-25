@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import './globals.scss';
-import React from "react";
+import React from 'react';
 
 const montserrat = Montserrat({
   subsets: ['cyrillic'],
@@ -21,9 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uk">
-      <body suppressHydrationWarning={true} className={montserrat.className}>
-        {children}
-      </body>
+      <body className={montserrat.className}>{children}</body>
     </html>
   );
 }

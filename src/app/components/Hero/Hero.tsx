@@ -11,7 +11,7 @@ export const Hero = () => {
         </p>
         <button className={styles.heroBtn}>
           <Link className={styles.heroLink} href={'#consultationForm'}>
-            Безкоштовна консультація
+            Отримати знижку 10%
           </Link>
         </button>
       </div>
