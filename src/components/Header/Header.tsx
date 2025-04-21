@@ -7,7 +7,7 @@ import { MenuIcon } from '../CustomIcons/MenuIcon/MenuIcon';
 import { RxCross1 as IconCross } from 'react-icons/rx';
 import { useState } from 'react';
 import Image from 'next/image';
-import logo from '../../../../public/images/logo.jpg';
+import logo from '../../../public/images/logo.jpg';
 
 export const Header = () => {
   const [visibleMenu, setVisibleMenu] = useState(false);

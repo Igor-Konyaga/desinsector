@@ -4,12 +4,12 @@
 	padding-top: 100px;
 	width: 100%;
 
-	@media screen and (max-width: 768px){
+	@media screen and (max-width: 768px) {
 		padding-top: 60px;
 	}
 
-	@media screen and (min-width: 768px){
-		background-image: url(../../../../public/images/priceBackground.png);
+	@media screen and (min-width: 768px) {
+		background-image: url(../../../public/images/priceBackground.png);
 		background-position: top 220px center;
 		background-size: 1440px 877px;
 		background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 		font-weight: 700;
 		font-size: 48px;
 
-		@media screen and (max-width: 768px){
+		@media screen and (max-width: 768px) {
 			margin-bottom: 40px;
 			font-weight: 600;
 			font-size: 24px;
@@ -34,7 +34,7 @@
 		align-items: center;
 		padding: 20px 16px;
 
-		@media screen and (min-width: 768px){
+		@media screen and (min-width: 768px) {
 			padding: 80px 100px;
 		}
 	}

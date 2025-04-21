@@ -1,7 +1,7 @@
 'use client';
+import { fetchTelegramMessage } from '@/services/telegremMessage';
 import styles from './ConsultationForm.module.scss';
 import { ChangeEvent, FormEvent, useEffect, useState } from 'react';
-import { fetchTelegramMessage } from '@/app/services/telegremMessage';
 import { MdOutlineDone } from 'react-icons/md';
 
 export const ConsultationForm = () => {

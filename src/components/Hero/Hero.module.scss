@@ -8,14 +8,14 @@
 	min-height: 1024px;
 
 	background-color: #fff;
-	background-image: url(../../../../public/images/mainBackground.png);
+	background-image: url(../../../public/images/mainBackground.png);
 	background-size: cover;
 	background-position: top center;
 	background-repeat: no-repeat;
 
 	@media screen and (max-width: 768px) {
 		padding: 0 15px;
-		background-image: url(../../../../public/images/mainBackgroundMob.png);
+		background-image: url(../../../public/images/mainBackgroundMob.png);
 	}
 
 	@media screen and (max-width: 768px) {

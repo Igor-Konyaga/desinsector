@@ -2,7 +2,6 @@
 import {useEffect, useState} from 'react';
 import styles from './PriceList.module.scss';
 import {CockroachIcon} from '../../../CustomIcons/CockroachIcon/CockroachIcon';
-import {PriceCard} from '@/app/components/Price/FromCalc/PriceList/PriceCard/PriceCard';
 import {CockroachActiveIcon} from '../../../CustomIcons/CockroachIcon/CockroachActiveIcon';
 import {BugActiveIcon} from '../../../CustomIcons/BugIcon/BugActiveIcon';
 import {FleaActiveIcon} from '../../../CustomIcons/FleaIcon/FleaActiveIcon';
@@ -10,6 +9,7 @@ import {MouseActiveIcon} from '../../../CustomIcons/MouseIcon/MouseActiveIcon';
 import {BugIcon} from '../../../CustomIcons/BugIcon/BugIcon';
 import {FleaIcon} from '../../../CustomIcons/FleaIcon/FleaIcon';
 import {MouseIcon} from '../../../CustomIcons/MouseIcon/MouseIcon';
+import { PriceCard } from './PriceCard/PriceCard';
 
 const calcItems = [
     {

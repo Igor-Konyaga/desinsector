@@ -1,5 +1,5 @@
+import { ListItem } from '../ListItem/ListItem';
 import styles from './List.module.scss';
-import {ListItem} from "@/app/components/AboutUs/ListItem/ListItem";
 import contract from '/public/images/contract.png';
 import discounts from '/public/images/discounts.png';
 import experience from '/public/images/experience.png';
