@@ -1,55 +1,53 @@
 .item {
-  overflow: hidden;
-  position: relative;
+	overflow: hidden;
+	position: relative;
 
-  .btn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 26px 20px;
+	.btn {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		padding: 26px 20px;
 
-    background-color: #F2EDE9;
+		background-color: #F2EDE9;
 
-    font-weight: 600;
-    font-size: 24px;
-    text-align: start;
-    cursor: pointer;
+		font-weight: 600;
+		font-size: 24px;
+		text-align: start;
+		cursor: pointer;
 
-    @media screen and (max-width: 768px) {
-      font-size: 20px;
-    }
+		@media screen and (max-width: 768px) {
+			font-size: 20px;
+		}
 
-    .title {
-      max-width: 940px;
+		.title {
+			max-width: 940px;
 
-      @media screen and (max-width: 700px) {
-        max-width: 250px;
-        font-size: 18px;
-      }
-    }
-  }
+			@media screen and (max-width: 700px) {
+				max-width: 250px;
+				font-size: 18px;
+			}
+		}
+	}
 
-  .desc {
-    max-height: 0;
-    padding: 0 34px;
-    font-size: 22px;
-    line-height: 1.4;
-    letter-spacing: 0.01em;
+	.desc {
+		height: 0;
+		opacity: 0;
+		margin-top: 14px;
+		margin-bottom: 14px;
+		font-size: 22px;
+		line-height: 1.4;
+		letter-spacing: 0.01em;
 
-    transition: max-height 0.4s linear, padding-top, 0.3s linear, padding-bottom 0.3s linear;
+		transition: height 0.3s linear, opacity 0.3s linear;
 
-    @media screen and (max-width: 768px) {
-      font-size: 16px;
-    }
-  }
+		@media screen and (max-width: 768px) {
+			font-size: 16px;
+		}
+	}
 
-  .open {
-    max-height: 300px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    overflow-y: auto;
-
-    transition: max-height 0.4s linear, padding-top, 0.3s linear, padding-bottom 0.3s linear;
-  }
+	.open {
+		transition: height 0.3s linear, opacity 0.3s linear;
+		opacity: 1;
+	}
 }
